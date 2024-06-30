@@ -22,6 +22,12 @@ docker-compose up -d
 ```
 yarn add @nestjs/mongoose mongoose
 ```
+6.- Instalar Axios para peticiones HTTP
+```
+yarn add axios
+```
+
+
 ## Stack usado
 * MongoDB
 * Nest
