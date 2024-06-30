@@ -26,6 +26,10 @@ yarn add @nestjs/mongoose mongoose
 ```
 yarn add axios
 ```
+7.- Reconstruir la BBDD utilizando la semilla:
+```
+GET http://localhost:3000/api/v2/seed
+```
 
 
 ## Stack usado
