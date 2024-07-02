@@ -22,14 +22,27 @@ docker-compose up -d
 ```
 yarn add @nestjs/mongoose mongoose
 ```
-6.- Instalar Axios para peticiones HTTP
+6.- Clonar el archivo __.env.template__ y renombrar la copia a __.env__
+7.- Completar las variables de eentorno definidas en el __.env__
+
+8.- Ejecutar la aplicación en dev:
+```
+yarn start:dev
+```
+9.- Instalar Axios para peticiones HTTP
 ```
 yarn add axios
 ```
-7.- Reconstruir la BBDD utilizando la semilla:
+10.- Reconstruir la BBDD utilizando la semilla:
 ```
 GET http://localhost:3000/api/v2/seed
 ```
+11.- Instalar paquete de configuración para uso de variables de entorno en .env
+```
+yarn add @nestjs/config
+```
+
+
 
 
 ## Stack usado
